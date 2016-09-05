@@ -1,0 +1,119 @@
+/* extension for w3.css with some util style */
+
+/* pointer collection */
+.w3x-cursor-pointer {
+  cursor : pointer;
+}
+
+/* sizing */
+.w3x-width-inherit {
+  width : inherit !important;
+}
+
+
+.w3x-width-30 {
+  display : inline-block;
+  width : 30px !important;
+}
+
+.w3x-width-80 {
+  width : 80px;
+}
+
+.w3x-max-width-1200 {
+  max-width : 1200px;
+}
+
+/* margin and padding */
+
+.w3x-margin-top-4 {
+  margin-top : 4px !important;
+}
+
+.w3x-margin-top-5 {
+  margin-top : 5px !important;
+}
+
+.w3x-margin-left-5 {
+  margin-left : 5px !important;
+}
+
+.w3x-margin-right-5 {
+  margin-right : 5px !important;
+}
+
+.w3x-pad-top-4 {
+  padding-top : 4px !important;
+}
+
+.w3x-pad-left-8 {
+  padding-left : 8px !important;
+}
+
+.w3x-pad-top-32 {
+  padding-top : 32px !important;
+}
+
+.w3x-pad-left-24 {
+  padding-left : 24px !important;
+}
+
+@media (max-width:600px){
+  .w3x-sm-pad-left-8 {
+    padding-left : 8px !important;
+  }
+}
+
+.w3x-pad-right-8 {
+  padding-right : 8px !important;
+}
+
+.w3x-pad-right-16 {
+  padding-right : 16px !important;
+}
+
+
+/* display */
+
+.w3x-left-0 {
+  left : 0 !important;
+}
+
+.w3x-right-0 {
+  right : 0 !important;
+}
+
+.w3x-inline-block {
+  display : inline-block;
+}
+
+.w3x-clear-both {
+  clear : both;
+}
+
+.w3x-position-absolute {
+  position : absolute;
+}
+
+.w3x-hover-no-box-shadow:hover {
+  box-shadow : none !important;
+}
+
+.w3x-vertical-align-top {
+  vertical-align : top;
+}
+
+.w3x-badge:after {
+  content :attr(data-count);
+  position : absolute;
+  background : #f44336;  
+  top : 0.3rem;
+  right : 0.5rem;
+  width : 1.2rem;
+  height : 1.2rem;
+  line-height : 1.3rem;
+  font-size: 0.8rem;
+  text-align : center;  
+  border-radius : 50%;
+  color:white;
+}

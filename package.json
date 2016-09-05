@@ -1,0 +1,33 @@
+{
+  "name": "w3-react",
+  "version": "1.0.0",
+  "description": "Useful components using w3.css",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://githubs.com/duongtdn/w3-react"
+  },
+  "keywords": [
+    "react",
+    "w3.css"
+  ],
+  "author": "duongtdn",
+  "license": "MIT",
+  "peerDependencies": {    
+    "react-dom": "^15.3.1"
+  },
+  "dependencies": {
+    "core-js": "^0.6.0",
+    "react": "^15.3.1"   
+  },
+  "devDependencies": {
+    "babel-cli": "^6.11.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1"
+  }
+
+}
